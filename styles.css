@@ -1,0 +1,14 @@
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  padding: 10px;
+}
+
+/* Box Styling */
+.box {
+  background-color: #555;
+  height: 150px;
+  border: 2px solid black;
+}

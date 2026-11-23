@@ -98,27 +98,37 @@
 }
 
 /* User Invite Form */
+.invite-section {
+  background-color: #aaa;
+  padding: 80px 20px;
+}
+
 .invite-form {
-  max-width: 400px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: #eee;
+  display: grid;
+  gap: 20px;
+  max-width: 450px;
+  margin: auto;
+  padding: 40px;
+  background-color: white;
+  border: 2px solid #444;
+  text-align: center;
 }
 
 .invite-form form {
   display: grid;
-  gap: 15px;
+  gap: 20px;
 }
 
-.invite-form input,
+.invite-form input {
+  padding: 12px;
+  border: 2px solid #444;
+}
+
 .invite-form button {
-  padding: 10px;
-}
-
-.skip-link {
-  text-align: center;
-  color: #555;
-  font-size: 14px;
-  text-decoration: underline;
+  padding: 12px;
+  background-color: #888;
+  color: white;
+  border: 2px solid #444;
+  cursor: pointer;
 }
 

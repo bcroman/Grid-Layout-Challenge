@@ -54,3 +54,16 @@
   grid-area: 3 / 3 / 4 / 5;
 }
 
+/* Mobile View */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  
+  .box {
+    grid-area: auto;
+    min-height: 100px;
+  }
+}
+

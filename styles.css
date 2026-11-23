@@ -132,3 +132,19 @@
   cursor: pointer;
 }
 
+/* Progress Steps */
+.progress-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 25px);
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #444;
+  border-radius: 50%;
+  background-color: #eee;
+}

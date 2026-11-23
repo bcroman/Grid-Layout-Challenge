@@ -1,3 +1,9 @@
+/* Overwall */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 /* Grid Layout */
 .grid-container {
   display: grid;
@@ -5,6 +11,7 @@
   grid-template-rows: repeat(3, 100px);
   gap: 15px;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 /* Box Styling */
@@ -75,6 +82,8 @@
   gap: 40px;
   padding: 25px;
   background-color: #555;
+  padding: 30px;
+  margin-top: 0;
 }
 
 .logo {
@@ -100,23 +109,31 @@
 /* User Invite Form */
 .invite-section {
   background-color: #aaa;
-  padding: 80px 20px;
+  padding: 60px 20px;
+  min-height: 600px;
 }
 
 .invite-form {
   display: grid;
   gap: 20px;
-  max-width: 450px;
+  max-width: 470px;
   margin: auto;
   padding: 40px;
   background-color: white;
   border: 2px solid #444;
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .invite-form form {
   display: grid;
   gap: 20px;
+}
+
+.invite-form h2 {
+  margin: 0;
+  letter-spacing: 4px;
 }
 
 .invite-form input {
@@ -130,6 +147,12 @@
   color: white;
   border: 2px solid #444;
   cursor: pointer;
+  width: 50%;
+  justify-self: center;
+}
+
+.skip-link {
+  justify-self: center;
 }
 
 /* Progress Steps */

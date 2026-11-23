@@ -82,3 +82,29 @@
   text-decoration: none;
   color: black;
 }
+
+/* User Invite Form */
+.invite-form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.invite-form form {
+  display: grid;
+  gap: 15px;
+}
+
+.invite-form input,
+.invite-form button {
+  padding: 10px;
+}
+
+.skip-link {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
